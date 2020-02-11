@@ -1,10 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using SIS.MvcFramework;
 namespace Panda.Web
 {
-    class StartUp
+    using SIS.MvcFramework.Routing;
+
+    public class StartUp : IMvcApplication
     {
+        public void Configure(IServerRoutingTable serverRoutingTable)
+        {
+            //once on start up
+        }
+
+        public void ConfigureServices(SIS.MvcFramework.DependencyContainer.IServiceProvider serviceProvider)
+        {
+            //serviceProvider.Add
+        }
     }
 }

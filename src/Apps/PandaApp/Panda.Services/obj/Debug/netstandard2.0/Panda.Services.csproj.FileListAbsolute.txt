@@ -1,0 +1,8 @@
+C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\Apps\PandaApp\Panda.Services\bin\Debug\netstandard2.0\Panda.Services.deps.json
+C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\Apps\PandaApp\Panda.Services\bin\Debug\netstandard2.0\Panda.Services.dll
+C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\Apps\PandaApp\Panda.Services\bin\Debug\netstandard2.0\Panda.Services.pdb
+C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\Apps\PandaApp\Panda.Services\obj\Debug\netstandard2.0\Panda.Services.AssemblyInfoInputs.cache
+C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\Apps\PandaApp\Panda.Services\obj\Debug\netstandard2.0\Panda.Services.AssemblyInfo.cs
+C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\Apps\PandaApp\Panda.Services\obj\Debug\netstandard2.0\Panda.Services.dll
+C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\Apps\PandaApp\Panda.Services\obj\Debug\netstandard2.0\Panda.Services.pdb
+C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\Apps\PandaApp\Panda.Services\obj\Debug\netstandard2.0\Panda.Services.csprojAssemblyReference.cache

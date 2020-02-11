@@ -25,16 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Panda.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Panda.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Panda.Data.dll": {}
-        }
       }
     }
   },
@@ -181,17 +171,11 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Panda.Data/1.0.0": {
-      "type": "project",
-      "path": "../Panda.Data/Panda.Data.csproj",
-      "msbuildProject": "../Panda.Data/Panda.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
-      "Panda.Data >= 1.0.0"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -223,11 +207,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "C:\\Users\\R. Yorgova\\Desktop\\C# Web Basics Exams\\src\\Apps\\PandaApp\\Panda.Data\\Panda.Data.csproj": {
-              "projectPath": "C:\\Users\\R. Yorgova\\Desktop\\C# Web Basics Exams\\src\\Apps\\PandaApp\\Panda.Data\\Panda.Data.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
