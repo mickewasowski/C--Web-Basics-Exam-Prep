@@ -1,8 +1,0 @@
-C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.deps.json
-C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
-C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
-C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.csprojAssemblyReference.cache
-C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfoInputs.cache
-C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfo.cs
-C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.dll
-C:\Users\R. Yorgova\Desktop\C# Web Basics Exams\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.pdb

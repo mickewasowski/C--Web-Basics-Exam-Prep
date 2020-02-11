@@ -1,7 +1,11 @@
-﻿namespace SIS.MvcFramework.ViewEngine
+﻿using SIS.MvcFramework.Identity;
+
+namespace SIS.MvcFramework.ViewEngine
 {
+    using Validation;
+
     public interface IViewEngine
     {
-        string GetHtml<T>(string viewName, string viewCode, T model, MvcUserInfo user = null);
+        string GetHtml<T>(string viewContent, T model, ModelStateDictionary modelState, Principal user);
     }
 }

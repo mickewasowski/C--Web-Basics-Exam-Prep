@@ -2,7 +2,7 @@
 {
     public interface IHttpHeaderCollection
     {
-        void Add(HttpHeader header);
+        void AddHeader(HttpHeader header);
 
         bool ContainsHeader(string key);
 
