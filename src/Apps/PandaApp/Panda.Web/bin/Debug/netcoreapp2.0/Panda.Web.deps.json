@@ -1270,6 +1270,11 @@
         }
       },
       "Panda.Services/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.1",
+          "Panda.Data": "1.0.0",
+          "SIS.MvcFramework": "1.0.0"
+        },
         "runtime": {
           "Panda.Services.dll": {}
         }

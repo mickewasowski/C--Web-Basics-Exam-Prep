@@ -91,7 +91,14 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\R. Yorgova\\Desktop\\C# Web Basics Exams\\src\\Apps\\PandaApp\\Panda.Data\\Panda.Data.csproj": {
+                "projectPath": "C:\\Users\\R. Yorgova\\Desktop\\C# Web Basics Exams\\src\\Apps\\PandaApp\\Panda.Data\\Panda.Data.csproj"
+              },
+              "C:\\Users\\R. Yorgova\\Desktop\\C# Web Basics Exams\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
+                "projectPath": "C:\\Users\\R. Yorgova\\Desktop\\C# Web Basics Exams\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -103,6 +110,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
