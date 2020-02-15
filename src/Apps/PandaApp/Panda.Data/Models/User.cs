@@ -8,12 +8,13 @@
     {
         public User()
         {
+            this.Id = Guid.NewGuid().ToString();
             this.Packages = new HashSet<Package>();
             this.Receipts = new HashSet<Receipt>();
         }
 
         [Key]
-        public Guid Id { get; set; }
+        public string Id { get; set; }
 
         [Required]
         public string Username { get; set; }

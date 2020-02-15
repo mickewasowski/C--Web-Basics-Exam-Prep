@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SIS.MvcFramework.Validation
+﻿namespace SIS.MvcFramework.Validation
 {
     using System.Collections.Immutable;
     using System.Data;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
 
     public class ModelStateDictionary
     {

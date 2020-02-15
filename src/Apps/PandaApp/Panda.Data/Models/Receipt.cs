@@ -5,19 +5,23 @@
 
     public class Receipt
     {
+        public Receipt()
+        {
+            this.Id = Guid.NewGuid().ToString();
+        }
         [Key]
-        public Guid Id { get; set; }
+        public string Id { get; set; }
 
         public decimal Fee { get; set; }
 
         public DateTime IssuedOn { get; set; }
 
         [Required]
-        public Guid RecipientId { get; set; }
+        public string RecipientId { get; set; }
         public User Recipient { get; set; }
 
         [Required]
-        public Guid PackageId { get; set; }
+        public string PackageId { get; set; }
         public Package Package { get; set; }
     }
 }

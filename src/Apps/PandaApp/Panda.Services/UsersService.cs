@@ -31,6 +31,13 @@
             return user.Id.ToString();
         }
 
+        public IEnumerable<string> GetUsernames()
+        {
+            var listOfUsernames = this.pandaDbContext.Users.Select(x => x.Username).ToList();
+
+            return listOfUsernames;
+        }
+
         public User GetUserOrNull(string username, string password)
         {
             var passHash = this.HashPassword(password);

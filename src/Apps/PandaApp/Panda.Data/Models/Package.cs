@@ -5,8 +5,12 @@
 
     public class Package
     {
+        public Package()
+        {
+            this.Id = Guid.NewGuid().ToString();
+        }
         [Key]
-        public Guid Id { get; set; }
+        public string Id { get; set; }
 
         [Required]
         [MaxLength(20)]
@@ -21,7 +25,7 @@
         public DateTime EstimatedDeliveryTime { get; set; }
 
         [Required]
-        public Guid RecipientId { get; set; }
+        public string RecipientId { get; set; }
         public virtual User Recipient { get; set; }
     }
 }
